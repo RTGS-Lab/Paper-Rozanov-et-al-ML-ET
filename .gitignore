@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+data/
+!data/LE_flux_dataset.csv
+ReadIt/
+
 # Distribution / packaging
 .Python
 build/
