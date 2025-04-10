@@ -13,11 +13,11 @@ def penman_monteith(inputs, target_idx, fluxes, mode='ground'):
     
     if mode == 'era5':
         temp = inputs[:, :, 0] - 273.15   # Temperature at 2m (K -> C)
-        Tdew = inputs[:, :, 3] - 273.15  # Dewpoint temperature at 2m (K -> C)
-        Rn = inputs[:, :, 1] / (60*60*24)  # Net solar radiation (W/m²)
-        P = inputs[:, :, 2]/1000 # Surface pressure (Pa -> kPa)
-        u10 = inputs[:, :, 6]  # Wind speed u-component (m/s)
-        v10 = inputs[:, :, 7]  # Wind speed v-component (m/s)
+        Tdew = inputs[:, :, 1] - 273.15  # Dewpoint temperature at 2m (K -> C)
+        Rn = inputs[:, :, 4] / (60*60*24)  # Net solar radiation (W/m²)
+        P = inputs[:, :, 6]/1000 # Surface pressure (Pa -> kPa)
+        u10 = inputs[:, :, 2]  # Wind speed u-component (m/s)
+        v10 = inputs[:, :, 3]  # Wind speed v-component (m/s)
         G = 0.1*Rn
         
         wind = np.sqrt(u10**2 + v10**2)
