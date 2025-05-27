@@ -21,7 +21,7 @@ def extract_modis_features(mod_features):
     df['EVI'] = (mod_features[:,1] - mod_features[:,0])/(mod_features[:,1] + 6*mod_features[:,0] - 7.5*mod_features[:,2] + 1)
     df['GNDVI'] = (mod_features[:,1] - mod_features[:,3])/(mod_features[:,1] + mod_features[:,3])
     df['SAVI'] = (mod_features[:,1] - mod_features[:,0])/(mod_features[:,1] + mod_features[:,0] + 0.5)*1.5
-    df['ARVI'] = (mod_features[:,1] + mod_features[:,2] - 2*mod_features[:,0])/(mod_features[:,1] + mod_features[:,2] + 2*mod_features[:,0])
+    df['ARVI'] = (mod_features[:,1] + mod_features[:,2] - 2*mod_features[:,0])/(mod_features[:,1] - mod_features[:,2] + 2*mod_features[:,0])
     
     return df
     

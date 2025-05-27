@@ -1,6 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 notebooks/__pycache__/
+pipeline/__pycache__/
+pipeline/notebooks/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -12,6 +14,10 @@ data_v02
 models/
 !data/LE_flux_dataset.csv
 ReadIt/
+pipeline/drive_key.json
+pipeline/client_secret.json
+pipeline/token.json
+pipeline/data
 
 # Distribution / packaging
 .Python

@@ -18,7 +18,7 @@ bands = [
 ]
 def extract_era_features(features):
     pm_era = penman_monteith(features, None, None, mode='era5') 
-    features = np.concat([features, pm_era[:, :, np.newaxis]], axis=2)
+    features = np.concatenate([features, pm_era[:, :, np.newaxis]], axis=2)
     df = pd.DataFrame(data=features[:,-1,:], columns=bands + ['LE_PM']) 
     for idx, col in enumerate(bands+['LE_PM']): # TS are only for the ERA5-derived variables
         if col in ['surface_net_solar_radiation_sum','total_evaporation_sum','total_precipitation_sum',]:
