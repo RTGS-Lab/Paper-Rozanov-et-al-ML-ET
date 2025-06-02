@@ -76,7 +76,7 @@ def job():
     list_and_process_files(service)
 
 if __name__ == '__main__':
-    STOP_TIME = datetime(2025, 6, 1, 14, 0)
+    STOP_TIME = datetime(2025, 6, 3, 14, 0)
 
     while True:
         now = datetime.now()
