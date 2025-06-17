@@ -3,6 +3,20 @@ __pycache__/
 notebooks/__pycache__/
 pipeline/__pycache__/
 pipeline/notebooks/__pycache__/
+
+# Hidden files
+notebooks/Transformer_v01.ipynb
+notebooks/Transformer_v02.ipynb
+notebooks/Transformer_v02_1.ipynb
+notebooks/ANN.ipynb
+notebooks/Baselines.ipynb
+notebooks/CatBoost.ipynb
+notebooks/Ensemble.ipynb
+notebooks/LightGBM.ipynb
+notebooks/LSTM.ipynb
+notebooks/RF.ipynb
+notebooks/XGBoost.ipynb
+
 *.py[cod]
 *$py.class
 
