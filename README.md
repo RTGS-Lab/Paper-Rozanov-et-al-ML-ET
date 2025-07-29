@@ -7,14 +7,14 @@
 Evapotranspiration (ET) plays a critical role in the land-atmosphere interactions, yet its accurate quantification across various spatiotemporal scales remains a challenge. In situ measurement approaches, like eddy covariance (EC) or weather-based ET estimation, allow for measuring ET at a single location. Agricultural applications require estimates for each management zone over broad areas, making it infeasible to deploy sensing systems at each location. This study integrates tree-based and knowledge-guided machine learning (ML) techniques with multispectral remote sensing data, griddled meteorology and EC data to upscale ET across the Midwest United States. We compare four tree-based models - Random Forest, CatBoost, XGBoost, LightGBM - and a simple feed-forward artificial neural network in combination with features engineered using knowledge-guided ML principles. Models were trained and tested on EC towers located in the Midwest of the United States using k-fold cross validation with k=10 and site-year, biome stratified train-test split to avoid data leakage. Results show that LightGBM with knowledge-guided features outperformed other methods with an R<sup>2</sup>=0.855, MSE=15.155 W·m<sup>-2</sup> and MAE = 9.166 W·m<sup>-2</sup> according to grouped k-fold validation (k=5). Feature importance analysis shows that knowledge-guided features were most important for predicting evapotranspiration.  Using the best performing model, we provide a data product at 500 m spatial and one-day temporal resolution for gridded ET for the period of 2019-2024.
 
 <h2>Content</h2>
-<code>
-ET_LCCMR/
+<code>ET_LCCMR/
     ├── LICENSE
     ├── README.md
     ├── requirements.txt
     ├── requirements_local.txt
     ├── .gitignore
     ├── paper/
+    ├── fig/
     ├── models/
         └── ligthgbm_model.txt
     ├── preprocessing
