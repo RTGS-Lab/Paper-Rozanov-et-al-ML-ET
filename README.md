@@ -1,5 +1,5 @@
-<h1 align="center"> Knowledge-Guided Tree-Based Models for Evapotranspiration Upscaling in the U.S. Midwest </h1>
-<div align="center"> This repository contains the code that accompanies the paper<br><b>Knowledge-Guided Tree-Based Models for Evapotranspiration Upscaling in the U.S. Midwest.</b><br><a href='https://scholar.google.com/citations?user=DyM0AjAAAAAJ&hl=en'>Aleksei Rozanov</a>, 
+<h1 align="center"> Knowledge-Guided Machine Learning Models to Upscale Evapotranspiration in the U.S. Midwest </h1>
+<div align="center"> This repository contains the code that accompanies the paper<br><b>Knowledge-Guided Machine Learning Models to Upscale Evapotranspiration in the U.S. Midwest.</b><br><a href='https://scholar.google.com/citations?user=DyM0AjAAAAAJ&hl=en'>Aleksei Rozanov</a>, 
     Samikshya Subedi, Vasudha Sharma, 
     <a href='https://scholar.google.com/citations?user=O7xJ4mcAAAAJ&hl=en&oi=ao'>Bryan Runck</a><br><mark>Link</mark></div>
 
