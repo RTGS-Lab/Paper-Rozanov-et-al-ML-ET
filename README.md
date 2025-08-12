@@ -61,10 +61,10 @@ It is highly recommended to use a virtual environment to manage dependencies.
 ### 3. Use the notebooks
 Navigate to the `preprocessing/` directory and run the Jupyter notebooks in the specified order to prepare the data for model training:
 
-`  1. Carbon_Data.ipynb
- 2. Site_Selection.ipynb
- 3. Stack_Data.ipynb
- 4. Mesonet_Validation_Data.ipynb`
+`1. Carbon_Data.ipynb`
+`2. Site_Selection.ipynb`
+`3. Stack_Data.ipynb`
+`4. Mesonet_Validation_Data.ipynb`
 
 
 
